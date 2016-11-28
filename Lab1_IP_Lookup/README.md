@@ -1,6 +1,7 @@
 ## Implementing two IP lookup strategies
 ### General requirement:
 Input:
+
 Input | routing table | trace file 
 --- | :---: | ---
 entries | 10^6 | 1.5x10^6
