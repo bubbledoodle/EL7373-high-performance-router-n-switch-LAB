@@ -2,7 +2,7 @@
 ### General requirement:
 Input:
 Input | routing table | trace file 
------- | :------： | -------
+------ | :------: | -------
 entries | 10^6 | 1.5x10^6
 act as | prefix and rules | actual dump traffic
 
