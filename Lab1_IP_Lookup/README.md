@@ -18,6 +18,7 @@ Now to run the experiement, in a terminal simplly type in:
 It will compile the c++ file and read packets trace. 
 Now this version of code is stuck somewhere of prefix range algorithm. 
 The basic idea for that is to:
+
 1. first convert each prefix into two structs. One represent starting point of range, the other, end point.
 2. second build a vector using binary search
 3. modify each of end point's GreaterTo part to be next nearest point's EqualTo.
