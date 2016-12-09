@@ -18,3 +18,7 @@ sudo ifdown enp0s3
 sudo ifup enp0s3
 ```
 From above, the FW has the forwarding enabled. 
+
+
+However in campus network environment, bridged iface cannot aquire IP address, which is going to work under home router environment. 
+We still gonna have two computer interconnected with each other. 
