@@ -1,5 +1,9 @@
+
+
 ```
-VBoxManage dhcpserver add --netname intnet --ip 192.168.0.100 --netmask 255.255.255.0 --lowerip 192.168.1.100 --upperip 192.168.1.200 --enable
+E:
+cd oracle/virtualbox
+VBoxManage.exe dhcpserver add --netname intnet --ip 192.168.0.100 --netmask 255.255.255.0 --lowerip 192.168.1.100 --upperip 192.168.1.200 --enable
 ```
 
 sys proc has some nice interface to control the network parameters. To change them you may use these command as direct change may result in under privillaged denying.
